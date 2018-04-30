@@ -47,7 +47,7 @@ exercises**
 
     * [Topic 5: NoSQL - MongoDB](#topic-5-nosql---mongodb-2-days)
     
-    * [Topic 6: Spring Core & REST](#topic-5-spring-core--rest-3-days)
+    * [Topic 6: Spring Core & REST](#topic-6-spring-core---rest-3-days)
 
 10. [Your First Project Starts Now!](#your-first-project-starts-now)
 
@@ -160,7 +160,7 @@ You will commit all your code on a daily basis, when you finish your practice.
 
   - [JVM](http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/gc01/index.html#t1s1). See: "Java Technology and the JVM" and "Describing Garbage Collection"
 
-#### Topic 0: Introduction to Object Oriented Programming Concepts (2 days)####
+#### Topic 0: Introduction to Object Oriented Programming Concepts (2 days)
 
 ##### Reading:
 
@@ -336,7 +336,7 @@ Commit your practice code.
 
 → [index](#index)
 
-####Topic 5: NoSQL - MongoDB (2 days)
+#### Topic 5: NoSQL - MongoDB (2 days)
 
 ##### Reading:
 1. [SQL vs. NoSQL DB](http://www.thegeekstuff.com/2014/01/sql-vs-nosql-db/)
@@ -365,7 +365,7 @@ Commit your practice code.
 
 → [index](#index)
 
-#### Topic 6: Spring Core & REST (3 days)####
+#### Topic 6: Spring Core & REST (3 days)
 
 ##### Reading:
 1. [Introduction to REST](https://www.youtube.com/watch?v=YCcAE2SCQ6k)
