@@ -1,8 +1,8 @@
-package AbstractFactory;
+package abstractFactory;
 
-import Drivers.DriverConnection;
-import Drivers.MySQLDriverManager;
-import Drivers.SQLDriverManager;
+import drivers.DriverConnection;
+import drivers.MySQLDriverManager;
+import drivers.SQLDriverManager;
 
 public class ConnectionFactory extends ConnectionsAbstractFactory {
 	@Override

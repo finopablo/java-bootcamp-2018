@@ -1,6 +1,6 @@
-package Builder;
+package builder;
 
-import Connections.DataBaseConnection;
+import connections.DataBaseConnection;
 
 public interface Builder {
 	

@@ -1,6 +1,6 @@
-package Connections;
+package connections;
 
-import AbstractFactory.ConnectionProducer;
+import abstractFactory.ConnectionProducer;
 
 public class DataBaseConnection {
 

@@ -1,6 +1,6 @@
-package AbstractFactory;
+package abstractFactory;
 
-import Drivers.DriverConnection;
+import drivers.DriverConnection;
 
 public abstract class ConnectionsAbstractFactory {
 	abstract DriverConnection getConnection(String SQL);

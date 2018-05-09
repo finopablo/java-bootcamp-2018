@@ -1,8 +1,8 @@
-package AbstractFactory;
+package abstractFactory;
 
-import Connections.Connection;
-import Drivers.MySQLDriverManager;
-import Drivers.SQLDriverManager;
+import connections.Connection;
+import drivers.MySQLDriverManager;
+import drivers.SQLDriverManager;
 
 public class ConnectionProducer {
 	private static Connection connection;
@@ -19,7 +19,10 @@ public class ConnectionProducer {
 		} else if(choise.equalsIgnoreCase("SqlServer")) {
 			SQLDriverManager sqlServer = new SQLDriverManager();
 			connection = sqlServer.getConnection(dataBase, user, password);
-		}
+		} else {
+		    throw  new Exception("the sql is not supported in this version of the program." +
+                    "Please try with Mysql or SqlServer");
+        }
 		
 		return connection;
 	}
